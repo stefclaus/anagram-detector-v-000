@@ -11,7 +11,8 @@ class Anagram
       word_list_hash = {}
       match_word_hash = {}
       
-      word_list.split("")
+      word_list_hash << word_list.split("")
+      match_word_hash << self.split("")
       
       self.split("")
       if self.sort == word_list.sort 

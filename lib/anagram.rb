@@ -12,8 +12,10 @@ class Anagram
       if word.split("").sort == self.split("").sort
       word
     else 
-      nil 
-    end 
+      nil
+      
+  end #ends match 
+  
 end #ends class 
 
 

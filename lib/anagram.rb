@@ -9,9 +9,11 @@ class Anagram
   
   def match(word, word_list)
     word_list.each do |list_word|
-      word.split("") == list_word.split("")
+      word.split("")
+      list_word.split("")
     end 
-    
+      if word.sort == list_word.sort 
+      return list_word 
   end 
   
 end 

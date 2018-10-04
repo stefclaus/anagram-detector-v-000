@@ -13,7 +13,7 @@ class Anagram
       list_word.split("")
     end 
       if word.sort == list_word.sort 
-      return list_word 
+      list_word 
     else 
       nil 
     end 

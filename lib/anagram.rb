@@ -13,8 +13,8 @@ class Anagram
       array << list_word
     end 
       array.split("")
-      word.split("")
-      if word.sort == list_word.sort 
+      @word.split("")
+      if @word.sort == list_word.sort 
       list_word 
     else 
       nil 

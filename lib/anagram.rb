@@ -7,7 +7,17 @@ class Anagram
     @word =word 
   end 
   
-  def match
-  end 
+  def match(word_list)
+    word_list.find_all do |word|
+      if word.split("").sort == self.word.split("").sort
+      word
+    else 
+      nil
+    end #ends if statement 
+    end #ends iteration 
+    
+  end #ends match 
   
-end 
+end #ends class 
+
+

@@ -7,7 +7,11 @@ class Anagram
     @word =word 
   end 
   
-  def match
+  def match(word_list, word)
+    word_list.each do |list_word|
+      word.split("") == list_word.split("")
+    end 
+    
   end 
   
 end 

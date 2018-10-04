@@ -8,12 +8,14 @@ class Anagram
   end 
   
   def match(word_list)
-      word_list.find_all do |word|
+    word_list.find_all do |word|
       if word.split("").sort == self.split("").sort
       word
     else 
       nil
-      
+    end #ends if statement 
+    end #ends iteration 
+    
   end #ends match 
   
 end #ends class 

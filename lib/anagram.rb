@@ -11,6 +11,7 @@ class Anagram
     word_list.each do |list_word|
       list_word.split("")
       word.split("")
+    end 
       if word.sort == list_word.sort 
       list_word 
     else 

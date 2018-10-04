@@ -14,6 +14,5 @@ class Anagram
     end 
       if word.sort == list_word.sort 
       return list_word 
-  end 
-  
+    end 
 end 

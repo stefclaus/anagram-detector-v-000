@@ -8,9 +8,11 @@ class Anagram
   end 
   
   def match(word_list)
+      word_list_hash = {}
+      match_word_hash = {}
       word_list.split("")
-      @word.split("")
-      if @word.sort == list_word.sort 
+      self.split("")
+      if self.sort == word_list.sort 
       list_word 
     else 
       nil 

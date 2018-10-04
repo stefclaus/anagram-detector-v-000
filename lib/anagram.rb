@@ -12,7 +12,7 @@ class Anagram
       array = []
       array << list_word
     end 
-       array.split("")
+      array.split("")
       word.split("")
       if word.sort == list_word.sort 
       list_word 

@@ -12,7 +12,7 @@ class Anagram
        self.split("")
       
       if self.sort == word_list.sort 
-      list_word 
+      
     else 
       nil 
     end 
